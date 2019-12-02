@@ -6,7 +6,7 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 Dynam
 
 ## 구성
 
-"devDependencies": {
-"serverless-mocha-plugin": "^1.11.0",
-"serverless-offline": "^5.12.1"
-}
+    "devDependencies": {
+        "serverless-mocha-plugin": "^1.11.0",
+        "serverless-offline": "^5.12.1"
+    }
