@@ -1,2 +1,4 @@
 hello:
   handler: src/functions/handler.hello
+hello2:
+  handler: src/functions/handler.hello2

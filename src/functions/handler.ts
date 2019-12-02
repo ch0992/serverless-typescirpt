@@ -1,7 +1,12 @@
-import { APIGatewayProxyHandler } from "aws-lambda";
+import { APIGatewayProxyHandler, Handler, Context, Callback } from "aws-lambda";
 import "source-map-support/register";
 
-export const hello: APIGatewayProxyHandler = async (event, _context) => {
+interface HelloResponse {
+  statusCode: number;
+  body: string;
+}
+
+const hello: APIGatewayProxyHandler = async (event, _context) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
@@ -15,3 +20,15 @@ export const hello: APIGatewayProxyHandler = async (event, _context) => {
     )
   };
 };
+
+const hello2: Handler = (event: any, context: Context, callback: Callback) => {
+  const response: HelloResponse = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: Math.floor(Math.random() * 10)
+    })
+  };
+  callback(undefined, response);
+};
+
+export { hello, hello2 };
