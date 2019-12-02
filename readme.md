@@ -35,36 +35,29 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
   `{ "statusCode": 200, "body": "{\n \"message\": \"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\",\n \"input\": \"\"\n}"}`
 
 - @types/aws-lambda 설치
-
-`npm i --save-dev @types/aws-lambda`
+  `npm i --save-dev @types/aws-lambda`
 
 - @types/mocha @types/chai 설치
-
-`npm i @types/mocha @types/chai --save-dev`
+  `npm i @types/mocha @types/chai --save-dev`
 
 - Ts-node 설치
-
-`npm i ts-node --save-dev`
+  `npm i ts-node --save-dev`
 
 ---
 
 ## commands for running
 
-### - 코드 배포
+- 코드 배포
+  `sls deploy`
 
-`sls deploy`
+- verbose 배포
+  `sls deploy -v`
 
-### - verbose 배포
+- offline 실행
+  `sls offline`
 
-`sls deploy -v`
-
-### - offline 실행
-
-`sls offline`
-
-### - Mocha Test 실행
-
-`npm test`
+- Mocha Test 실행
+  `npm test`
 
 ---
 
