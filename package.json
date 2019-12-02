@@ -16,9 +16,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "serverless-mocha-plugin": "^1.11.0",
     "serverless-offline": "^5.12.1"
   },
-  "dependencies": {
-    "serverless-mocha-plugin": "^1.11.0"
-  }
+  "dependencies": {}
 }
