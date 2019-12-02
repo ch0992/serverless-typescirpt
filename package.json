@@ -1,0 +1,24 @@
+{
+  "name": "typescript-lambda-crud-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/typescript-lambda-crud-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  },
+  "dependencies": {
+    "serverless-mocha-plugin": "^1.11.0"
+  }
+}
