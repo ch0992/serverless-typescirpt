@@ -1,5 +1,5 @@
 import * as mocha from "serverless-mocha-plugin";
-import { hello } from "../handlers/handler";
+import { hello } from "../functions/handler";
 
 const expect = mocha.chai.expect;
 

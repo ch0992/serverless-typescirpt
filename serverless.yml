@@ -31,9 +31,7 @@ tags:
   Team: Platform
   User: 최영규
 
-functions:
-  hello:
-    handler: src/handlers/handler.hello
+functions: ${file(handler-merge.js)}
 
 plugins:
   - serverless-offline

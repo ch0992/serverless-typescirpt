@@ -54,7 +54,7 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
   `sls deploy -v`
 
 - offline 실행  
-  `sls offline`
+  `sls offline start`
 
 - Mocha Test 실행  
   `npm test`
