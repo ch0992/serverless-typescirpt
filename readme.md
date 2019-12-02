@@ -80,7 +80,6 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
 
     "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
-    "@types/chai": "^4.2.5",
     "@types/mocha": "^5.2.7",
     "@types/node": "^10.12.18",
     "chai": "^4.2.0",
@@ -90,8 +89,10 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
     "serverless-offline": "^5.12.1",
     "serverless-webpack": "^5.2.0",
     "ts-loader": "^5.3.3",
+    "ts-node": "^8.5.4",
     "typescript": "^3.2.4",
-    "webpack": "^4.29.0"
+    "webpack": "^4.29.0",
+    "yamljs": "^0.3.0"
     }
 
 ---
