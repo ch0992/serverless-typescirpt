@@ -1,4 +1,4 @@
-# Serverless Typescript CRUD Template
+# Serverless Typescript CRUD for dynamoDB in AWS lambda
 
 ---
 
@@ -31,7 +31,7 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
 - handler.ts 실행 테스트  
   `sls invoke local -f hello`
 
-* result :
+- result :
   `{ "statusCode": 200, "body": "{\n \"message\": \"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\",\n \"input\": \"\"\n}"}`
 
 - @types/aws-lambda 설치  
