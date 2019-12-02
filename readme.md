@@ -47,16 +47,16 @@ Serverless 프레임워크를 기반으로 Typescript & Mocha를 적용한 AWS D
 
 ## commands for running
 
-- 코드 배포
+- 코드 배포  
   `sls deploy`
 
-- verbose 배포
+- verbose 배포  
   `sls deploy -v`
 
-- offline 실행
+- offline 실행  
   `sls offline`
 
-- Mocha Test 실행
+- Mocha Test 실행  
   `npm test`
 
 ---
