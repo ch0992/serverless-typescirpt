@@ -1,4 +1,23 @@
 hello:
   handler: src/functions/handler.hello
+  events:
+    - http:
+        path: hello
+        method: get
+        cors:
+          maxAge: 86400
+          headers:
+            - Authorization
+            - Content-Type
+
 hello2:
   handler: src/functions/handler.hello2
+  events:
+    - http:
+        path: hello2
+        method: get
+        cors:
+          maxAge: 86400
+          headers:
+            - Authorization
+            - Content-Type

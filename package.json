@@ -4,7 +4,8 @@
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "scripts": {
-    "test": "mocha -r ts-node/register ./src/test/*.spec.ts"
+    "test": "mocha -r ts-node/register ./src/test/*.spec.ts",
+    "start": "nodemon --exec \"serverless offline start\""
   },
   "dependencies": {
     "source-map-support": "^0.5.10"
